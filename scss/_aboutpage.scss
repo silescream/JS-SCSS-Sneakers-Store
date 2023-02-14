@@ -1,0 +1,53 @@
+@import "mixinx";
+
+.about-section {
+    &__header { 
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        color:#001a33;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    &__block-name {
+        margin-bottom: 60px;
+    }
+
+    &__text-content {
+        max-width: 650px;
+    }
+
+    &__text-line {
+        color: #CC5500;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    &__text-title {
+        text-align: center;
+        font-size: 32px;
+        color: #001a33;
+        font-family: $mainfont;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        color: #778899;
+        font-family: $mainfont;
+    }
+}
+
+.block-name {
+    height: 15vh;
+    background-color: #F0F8FF;
+
+    &__title {
+        padding-top: 40px;
+        font-size: 29px;
+        font-family: $mainfont;
+        color: #778899;
+    }
+
+}

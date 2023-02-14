@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>NikeWell</title>
+  </head>
+  <body>
+    <section class="products-section">
+      <div class="products-section__header header container">
+        <nav class="header__nav-menu nav-menu">
+          <div class="nav-menu__item"><a href="index.html">Home</a></div>
+          <div class="nav-menu__item"><a href="products.html">Product</a></div>
+          <div class="nav-menu__item"><a href="about.html">About</a></div>
+        </nav>
+        <div class="header__title">Nikewell</div>
+        <div class="header__cart-box">
+          <img
+            class="header__icon"
+            src="img/cart-fill-custom.svg"
+            alt="carting-shop-icon"
+          />
+          <div class="header__cart-circle white">
+            <span class="header__cart-counter">5</span>
+          </div>
+        </div>
+      </div>
+      <div class="products-section__block-name block-name">
+        <p class="block-name__title container">Home / Products</p>
+      </div>
+    </section>
+
+    <section class="content-section container">
+      <div class="content-section__filter-menu">
+        <div class="content-section__search-input">
+          <input
+            class="content-section__input"
+            type="text"
+            placeholder="Search..."
+          />
+        </div>
+        <div class="content-section__filters">
+          <div class="content-section__filter-title">Company</div>
+          <div class="content-section__filter-name">All</div>
+          <div class="content-section__filter-name">Tekno</div>
+          <div class="content-section__filter-name">Force</div>
+          <div class="content-section__filter-name">Jordan</div>
+          <div class="content-section__filter-name">Blazer</div>
+        </div>
+        <div class="content-section__slide-box">
+          <div class="content-section__slider-title">Price</div>
+          <div class="content-section__slider">
+            <input
+              type="range"
+              class="content-section__range"
+              min="99"
+              max="500"
+              value="500"
+              step="1"
+            />
+          </div>
+          <div class="content-section__price">
+            Value : <span class="content-section__value">$500</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section__content"></div>
+    </section>
+    <script type="module" src="js/products.js"></script>
+  </body>
+</html>

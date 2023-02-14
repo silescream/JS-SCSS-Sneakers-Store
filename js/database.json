@@ -1,0 +1,211 @@
+[
+    {
+      "id": "1",
+      "fields": {
+      "company": "Monarch",
+      "featured": true,
+      "price": 150,
+      "name": "NIKE AIR MONARCH",
+      "image": "img/nikemonarch.jpg"
+       }
+    },
+
+    {
+        "id": "2",
+        "fields": {
+        "company": "Tekno",
+        "featured": true,
+        "price": 120,
+        "name": "NIKE M2K TEKNO",
+        "image": "img/niketekno.jpg"
+         }
+      },
+
+      {
+        "id": "3",
+        "fields": {
+        "company": "Jordan",
+        "featured": true,
+        "price": 130,
+        "name": "NIKE 1MID JORDAN",
+        "image": "img/nikejordan.jpg"
+         }
+      },
+
+      {
+        "id": "4",
+        "fields": {
+        "company": "Monarch",
+        "featured": false,
+        "price": 99,
+        "name": "NIKE AIR MONARCH IV",
+        "image": "img/nikemonarch4.jpg"
+         }
+      },
+
+      {
+         "id": "5",
+         "fields": {
+         "company": "Tekno",
+         "featured": false,
+         "price": 199,
+         "name": "NIKE M2K TEKNO",
+         "image": "img/niketekno2.jpg"
+          }
+       },
+
+       {
+         "id": "6",
+         "fields": {
+         "company": "Tekno",
+         "featured": false,
+         "price": 299,
+         "name": "NIKE M2K TEKNO",
+         "image": "img/niketekno3.jpg"
+          }
+       },
+
+       {
+         "id": "7",
+         "fields": {
+         "company": "Tekno",
+         "featured": false,
+         "price": 149,
+         "name": "NIKE M2K TEKNO",
+         "image": "img/niketekno4.jpg"
+          }
+       },
+
+       {
+         "id": "8",
+         "fields": {
+         "company": "Tekno",
+         "featured": false,
+         "price": 139,
+         "name": "NIKE M2K TEKNO",
+         "image": "img/niketekno5.jpg"
+          }
+       },
+
+       {
+         "id": "9",
+         "fields": {
+         "company": "Monarch",
+         "featured": false,
+         "price": 350,
+         "name": "NIKE AIR MONARCH",
+         "image": "img/nikemonarch2.jpg"
+          }
+       },
+
+       {
+         "id": "10",
+         "fields": {
+         "company": "Monarch",
+         "featured": false,
+         "price": 450,
+         "name": "NIKE AIR MONARCH",
+         "image": "img/nikemonarch3.jpg"
+          }
+       },
+
+       {
+         "id": "11",
+         "fields": {
+         "company": "Monarch",
+         "featured": false,
+         "price": 150,
+         "name": "NIKE AIR MONARCH",
+         "image": "img/nikemonarch5.jpg"
+          }
+       },
+
+       {
+         "id": "12",
+         "fields": {
+         "company": "Jordan",
+         "featured": false,
+         "price": 130,
+         "name": "NIKE 1MID JORDAN",
+         "image": "img/nikejordan2.jpg"
+          }
+       },
+
+       {
+         "id": "13",
+         "fields": {
+         "company": "Jordan",
+         "featured": false,
+         "price": 230,
+         "name": "NIKE 1MID JORDAN",
+         "image": "img/nikejordan3.jpg"
+          }
+       },
+
+       {
+         "id": "14",
+         "fields": {
+         "company": "Jordan",
+         "featured": false,
+         "price": 230,
+         "name": "NIKE 1MID JORDAN",
+         "image": "img/nikejordan4.jpg"
+          }
+       },
+
+       {
+         "id": "15",
+         "fields": {
+         "company": "Blazer",
+         "featured": true,
+         "price": 430,
+         "name": "NIKE BLAZER 77",
+         "image": "img/nikeblazer1.jpg"
+          }
+       },
+
+       {
+         "id": "16",
+         "fields": {
+         "company": "Blazer",
+         "featured": false,
+         "price": 390,
+         "name": "NIKE BLAZER 77",
+         "image": "img/nikeblazer2.jpg"
+          }
+       },
+
+       {
+         "id": "17",
+         "fields": {
+         "company": "Force",
+         "featured": false,
+         "price": 190,
+         "name": "NIKE AIR FORCE",
+         "image": "img/nikeforce.jpg"
+          }
+       },
+
+       {
+         "id": "18",
+         "fields": {
+         "company": "Force",
+         "featured": false,
+         "price": 150,
+         "name": "NIKE AIR FORCE",
+         "image": "img/nikeforce2.jpg"
+          }
+       },
+
+       {
+         "id": "19",
+         "fields": {
+         "company": "Force",
+         "featured": false,
+         "price": 130,
+         "name": "NIKE AIR FORCE",
+         "image": "img/nikeforce3.jpg"
+          }
+       }
+
+]

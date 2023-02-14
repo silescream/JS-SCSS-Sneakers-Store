@@ -1,0 +1,94 @@
+@import "mixinx";
+
+.header-section {
+    min-height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header15.jpg) center/cover;
+    margin-bottom: 40px;
+
+    &__header { 
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        text-shadow: 3px 3px 3px #000000;
+    }
+
+    &__main {
+        display: flex;
+        align-items: center;
+        height: 35vh;
+    }
+
+    &__text-content {
+        color: white;
+        text-shadow: 3px 3px 3px #000000;   
+
+    }
+
+    &__content-title{
+        font-size: 54px;
+        font-family: 'Caveat', cursive;
+        margin-bottom: 15px;
+      @include for-phone-only {
+            font-size: 36px;
+        } 
+    }
+
+    &__content-description {
+        font-size: 28px;
+        font-family: $mainfont;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    &__show-button {
+        background: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    &__show-link {
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+        font-family: $mainfont;
+    }
+}
+
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+
+        @include for-phone-only {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+    &__line {
+        color:	#CC5500;
+    }
+
+    &__title {
+        text-align: center;
+        color:#001a33;
+        margin-bottom: 20px;
+    }
+
+
+    &__allproducts-link {
+        font-size: 10px;
+        padding: 5px;
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        border-radius: 3px; 
+        background-color: #CC5500;
+        font-family: $mainfont;
+    }
+}
